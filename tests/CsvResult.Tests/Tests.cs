@@ -81,6 +81,7 @@ namespace CsvResult.Tests
             //act
             var result = controller.Index();
             //assert
+            Assert.Equal("firstName", result.Data.OfType<TestController.TestClass>().First().FirstName);
             Assert.Equal("2ndFirstName", result.Data.OfType<TestController.TestClass>().Last().FirstName);
         }
 
