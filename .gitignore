@@ -97,6 +97,8 @@ _TeamCity*
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
+*.ncrunchproject
+*.ncrunchsolution
 
 # MightyMoose
 *.mm.*
@@ -130,7 +132,7 @@ publish/
 *.pubxml
 
 # NuGet Packages
-packages/*
+src/CsvResult/packages/*
 *.nupkg
 ## TODO: If the tool you use requires repositories.config
 ## uncomment the next line
