@@ -84,6 +84,17 @@ namespace CsvResult.Tests
             Assert.Equal("2ndFirstName", result.Data.OfType<TestController.TestClass>().Last().FirstName);
         }
 
+        [Fact(Skip = "not implemented")]
+        public void TestControllerShouldRenderCorrectResult()
+        {
+            //arrange
+            var controller = new TestController();
+            //act
+            var result = controller.Index();
+            //assert
+            //Assert.Equal("2ndFirstName", result.ExecuteResult());
+        }
+
 
     }
 }
