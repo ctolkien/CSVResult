@@ -32,10 +32,7 @@ namespace CsvResult.Tests
             };
 
             return new CsvResult(data);
-
         }
-
-
     }
 
     public class Tests
